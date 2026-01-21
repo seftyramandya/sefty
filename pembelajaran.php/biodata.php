@@ -1,2 +1,4 @@
 <?php
-echo "Sefty!"<br>;
+echo "Nama:Sefty<br>" ;
+echo "Kelas:XI TJKT 2" ;
+?>
