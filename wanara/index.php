@@ -3,9 +3,9 @@ session_start();
 include 'koneksi.php';
 
 // KODE PELINDUNG: Jika belum login, paksa user balik ke halaman login
-if (!isset($_SESSION['login'])) {
-    header("Location: login.php");
-    exit;
+if (!isset($_SESSION['status_login']) || $_SESSION['status_login'] !== true) {
+  header("Location: login.php");
+  exit();
 }
 
 // KODE AMBIL DATA: Mengambil data diri user yang sedang login dari database
