@@ -158,7 +158,7 @@ if (!isset($_SESSION['status_login']) || $_SESSION['status_login'] !== true) {
     <div class="btn-box" style="display: flex; gap: 15px; margin-top: 20px;">
         <a href="isi-data.php" class="btn btn-back" style="flex: 1; padding: 12px; text-align: center; text-decoration: none; font-weight: bold; border-radius: 6px; font-size: 14px; background-color: #23354f; color: #ffffff; border: 1px solid #3b557a;">← Tambah Lagi</a>
         
-        <a href="index.php" class="btn btn-web" style="flex: 1; padding: 12px; text-align: center; text-decoration: none; font-weight: bold; border-radius: 6px; font-size: 14px; background-color: #f2bd43; color: #17263c;">Masuk ke Web Utama →</a>
+        <a href="indexb.php" class="btn btn-web" style="flex: 1; padding: 12px; text-align: center; text-decoration: none; font-weight: bold; border-radius: 6px; font-size: 14px; background-color: #f2bd43; color: #17263c;">Masuk ke Web Utama →</a>
         
         <a href="logout.php" class="btn btn-logout" style="flex: 1; padding: 12px; text-align: center; text-decoration: none; font-weight: bold; border-radius: 6px; font-size: 14px; background-color: #ff6b6b; color: #ffffff;">Keluar</a>
     </div>
